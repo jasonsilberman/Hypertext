@@ -122,4 +122,17 @@ class HypertextTests: XCTestCase {
       XCTAssertEqual(expected, actual)
   }
 
+  func testCanCreateCustomTagWithOverridenName() {
+      let expected = "<mycustomtagname></mycustomtagname>"
+
+      class mycustomtag : tag {
+        override public var name: String {
+          return "mycustomtagname"
+        }
+      }
+      let actual = mycustomtag().render()
+
+      XCTAssertEqual(expected, actual)
+  }
+
 }
