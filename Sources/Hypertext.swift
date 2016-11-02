@@ -48,7 +48,7 @@ extension Array: Renderable {
     }
 }
 
-open class tag: Renderable {
+open class Tag: Renderable {
     open var isSelfClosing: Bool { return false }
     open var name: String { return String(describing: type(of: self)) }
 
