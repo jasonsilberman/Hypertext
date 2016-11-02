@@ -6,106 +6,106 @@
 //  Copyright © 2016 Sahand Nayebaziz. All rights reserved.
 //
 
-public class a          : tag {}
-public class abbr       : tag {}
-public class address    : tag {}
-public class article    : tag {}
-public class aside      : tag {}
-public class audio      : tag {}
-public class b          : tag {}
-public class bb         : tag {}
-public class bdo        : tag {}
-public class blockquote : tag {}
-public class body       : tag {}
-public class button     : tag {}
-public class canvas     : tag {}
-public class caption    : tag {}
-public class cite       : tag {}
-public class code       : tag {}
-public class colgroup   : tag {}
-public class datagrid   : tag {}
-public class datalist   : tag {}
-public class dd         : tag {}
-public class del        : tag {}
-public class detail     : tag {}
-public class dfn        : tag {}
-public class dialog     : tag {}
-public class div        : tag {}
-public class dl         : tag {}
-public class em         : tag {}
-public class fieldset   : tag {}
-public class figure     : tag {}
-public class footer     : tag {}
-public class form       : tag {}
-public class h1         : tag {}
-public class h2         : tag {}
-public class h3         : tag {}
-public class h4         : tag {}
-public class h5         : tag {}
-public class h6         : tag {}
-public class head       : tag {}
-public class header     : tag {}
-public class html       : tag {}
-public class i          : tag {}
-public class iframe     : tag {}
-public class ins        : tag {}
-public class kbd        : tag {}
-public class label      : tag {}
-public class legend     : tag {}
-public class li         : tag {}
-public class map        : tag {}
-public class mark       : tag {}
-public class menu       : tag {}
-public class meter      : tag {}
-public class nav        : tag {}
-public class noscript   : tag {}
-public class object     : tag {}
-public class ol         : tag {}
-public class optgroup   : tag {}
-public class option     : tag {}
-public class output     : tag {}
-public class p          : tag {}
-public class pre        : tag {}
-public class progress   : tag {}
-public class q          : tag {}
-public class rp         : tag {}
-public class rt         : tag {}
-public class ruby       : tag {}
-public class samp       : tag {}
-public class script     : tag {}
-public class section    : tag {}
-public class select     : tag {}
-public class small      : tag {}
-public class span       : tag {}
-public class strong     : tag {}
-public class style      : tag {}
-public class sub        : tag {}
-public class sup        : tag {}
-public class table      : tag {}
-public class tbody      : tag {}
-public class td         : tag {}
-public class textarea   : tag {}
-public class tfoot      : tag {}
-public class th         : tag {}
-public class thead      : tag {}
-public class time       : tag {}
-public class title      : tag {}
-public class tr         : tag {}
-public class ul         : tag {}
-public class `var`      : tag {}
-public class video      : tag {}
+public class a          : Tag {}
+public class abbr       : Tag {}
+public class address    : Tag {}
+public class article    : Tag {}
+public class aside      : Tag {}
+public class audio      : Tag {}
+public class b          : Tag {}
+public class bb         : Tag {}
+public class bdo        : Tag {}
+public class blockquote : Tag {}
+public class body       : Tag {}
+public class button     : Tag {}
+public class canvas     : Tag {}
+public class caption    : Tag {}
+public class cite       : Tag {}
+public class code       : Tag {}
+public class colgroup   : Tag {}
+public class datagrid   : Tag {}
+public class datalist   : Tag {}
+public class dd         : Tag {}
+public class del        : Tag {}
+public class detail     : Tag {}
+public class dfn        : Tag {}
+public class dialog     : Tag {}
+public class div        : Tag {}
+public class dl         : Tag {}
+public class em         : Tag {}
+public class fieldset   : Tag {}
+public class figure     : Tag {}
+public class footer     : Tag {}
+public class form       : Tag {}
+public class h1         : Tag {}
+public class h2         : Tag {}
+public class h3         : Tag {}
+public class h4         : Tag {}
+public class h5         : Tag {}
+public class h6         : Tag {}
+public class head       : Tag {}
+public class header     : Tag {}
+public class html       : Tag {}
+public class i          : Tag {}
+public class iframe     : Tag {}
+public class ins        : Tag {}
+public class kbd        : Tag {}
+public class label      : Tag {}
+public class legend     : Tag {}
+public class li         : Tag {}
+public class map        : Tag {}
+public class mark       : Tag {}
+public class menu       : Tag {}
+public class meter      : Tag {}
+public class nav        : Tag {}
+public class noscript   : Tag {}
+public class object     : Tag {}
+public class ol         : Tag {}
+public class optgroup   : Tag {}
+public class option     : Tag {}
+public class output     : Tag {}
+public class p          : Tag {}
+public class pre        : Tag {}
+public class progress   : Tag {}
+public class q          : Tag {}
+public class rp         : Tag {}
+public class rt         : Tag {}
+public class ruby       : Tag {}
+public class samp       : Tag {}
+public class script     : Tag {}
+public class section    : Tag {}
+public class select     : Tag {}
+public class small      : Tag {}
+public class span       : Tag {}
+public class strong     : Tag {}
+public class style      : Tag {}
+public class sub        : Tag {}
+public class sup        : Tag {}
+public class table      : Tag {}
+public class tbody      : Tag {}
+public class td         : Tag {}
+public class textarea   : Tag {}
+public class tfoot      : Tag {}
+public class th         : Tag {}
+public class thead      : Tag {}
+public class time       : Tag {}
+public class title      : Tag {}
+public class tr         : Tag {}
+public class ul         : Tag {}
+public class `var`      : Tag {}
+public class video      : Tag {}
 
-public class area       : tag { override public var isSelfClosing: Bool { return true } }
-public class base       : tag { override public var isSelfClosing: Bool { return true } }
-public class br         : tag { override public var isSelfClosing: Bool { return true } }
-public class col        : tag { override public var isSelfClosing: Bool { return true } }
-public class command    : tag { override public var isSelfClosing: Bool { return true } }
-public class dt         : tag { override public var isSelfClosing: Bool { return true } }
-public class embed      : tag { override public var isSelfClosing: Bool { return true } }
-public class hr         : tag { override public var isSelfClosing: Bool { return true } }
-public class img        : tag { override public var isSelfClosing: Bool { return true } }
-public class input      : tag { override public var isSelfClosing: Bool { return true } }
-public class link       : tag { override public var isSelfClosing: Bool { return true } }
-public class meta       : tag { override public var isSelfClosing: Bool { return true } }
-public class param      : tag { override public var isSelfClosing: Bool { return true } }
-public class source     : tag { override public var isSelfClosing: Bool { return true } }
+public class area       : Tag { override public var isSelfClosing: Bool { return true } }
+public class base       : Tag { override public var isSelfClosing: Bool { return true } }
+public class br         : Tag { override public var isSelfClosing: Bool { return true } }
+public class col        : Tag { override public var isSelfClosing: Bool { return true } }
+public class command    : Tag { override public var isSelfClosing: Bool { return true } }
+public class dt         : Tag { override public var isSelfClosing: Bool { return true } }
+public class embed      : Tag { override public var isSelfClosing: Bool { return true } }
+public class hr         : Tag { override public var isSelfClosing: Bool { return true } }
+public class img        : Tag { override public var isSelfClosing: Bool { return true } }
+public class input      : Tag { override public var isSelfClosing: Bool { return true } }
+public class link       : Tag { override public var isSelfClosing: Bool { return true } }
+public class meta       : Tag { override public var isSelfClosing: Bool { return true } }
+public class param      : Tag { override public var isSelfClosing: Bool { return true } }
+public class source     : Tag { override public var isSelfClosing: Bool { return true } }
