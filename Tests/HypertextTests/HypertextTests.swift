@@ -104,7 +104,14 @@ class HypertextTests: XCTestCase {
   func testCanRenderAttributeOnNestedTag() {
       let expected = "<head><link href=\"./style.css\"/></head>"
       let actual = head { link(["href":"./style.css"]) }.render()
-    
+
+      XCTAssertEqual(expected, actual)
+  }
+
+  func testCanRenderTagWithAttributesAndChildren() {
+      let expected = "<div class=\"container\"><p>Well hello there...</p></div>"
+      let actual = div(["class":"container"]) { p { "Well hello there..." } }.render()
+
       XCTAssertEqual(expected, actual)
   }
 
@@ -154,7 +161,8 @@ class HypertextTests: XCTestCase {
         ("testCanRenderAttributeOnNestedTag", testCanRenderAttributeOnNestedTag),
         ("testCanRenderTagsWithFormatting", testCanRenderTagsWithFormatting),
         ("testCanRenderTagsWithFormattingWithMultipleSiblings", testCanRenderTagsWithFormattingWithMultipleSiblings),
-        ("testCanCreateCustomTagWithOverridenName", testCanCreateCustomTagWithOverridenName)
+        ("testCanCreateCustomTagWithOverridenName", testCanCreateCustomTagWithOverridenName),
+        ("testCanRenderTagWithAttributesAndChildren", testCanRenderTagWithAttributesAndChildren)
     ]
   }
 
