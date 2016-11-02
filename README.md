@@ -105,7 +105,7 @@ head { title { "hello world." } }.render(startingWithSpacesCount: 0)
 
    ```swift
    
-   public class myNewTag: tag {
+   public class myNewTag: Tag {
      override public init(setChildren: (() -> Renderable?)) {
        super.init(setChildren: setChildren)
        name = "myNewTag"
